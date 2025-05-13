@@ -1,2 +1,3 @@
+./problema1/DemoArreglos.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
