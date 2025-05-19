@@ -16,6 +16,7 @@ public class Principal {
         System.out.println("*\t 2) Leer un arreglo unidimensional de entero de tamaño 10    *");
         System.out.println("*\t 3) Leer un arreglo unidimensional de doubles de tamaño 10   *");
         System.out.println("*\t 4) Leer un arreglo unidimensional de cadenas de tamaño 5 \n e imprimirla en orden inverso   *");
+        System.out.println("*\t 5) Leer un arreglo unidimensional de enteros tamaño 10 y sumarlos *");
 
         System.out.println("*\t                                                             *");
         System.out.println("*\t\t0) Salir                                             *");
@@ -41,8 +42,11 @@ public class Principal {
                     break;
                 case 4:
                     problema4.LeerArreglo.leerArreglo();
+                    break;
+                case 5:
+                    problema5.SumaArreglo.sumaArreglo();
+                    break;
 
-                
                 default:
                 System.out.println("Opcion invalida");
                     break;

@@ -3,4 +3,5 @@
 ./problema4/LeerArreglo.java
 ./problema2/LeerArreglo.java
 ./problema3/LeerArreglo.java
+./problema5/SumaArreglo.java
 ./miTest/AppTest.java
