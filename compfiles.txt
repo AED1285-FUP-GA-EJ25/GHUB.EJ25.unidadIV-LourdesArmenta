@@ -5,3 +5,4 @@
 ./problema3/LeerArreglo.java
 ./problema5/SumaArreglo.java
 ./miTest/AppTest.java
+./problema6/OrdenaBurbuja.java
