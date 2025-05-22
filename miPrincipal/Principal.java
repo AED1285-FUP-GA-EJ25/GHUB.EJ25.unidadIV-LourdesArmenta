@@ -18,6 +18,8 @@ public class Principal {
         System.out.println("*\t 4) Leer un arreglo unidimensional de cadenas de tamaño 5 \n e imprimirla en orden inverso   *");
         System.out.println("*\t 5) Leer un arreglo unidimensional de enteros tamaño 10 y sumarlos *");
         System.out.println("*\t 6) Leer un arreglo unidimensional de enteros tamaño 10 y ordenarlos por método burbuja *");
+        System.out.println("*\t 7) Leer un matriz de orden 2X3                              *");
+        System.out.println("*\t 8) Leer un matriz de orden NXM y asignarle valores          *");
 
         System.out.println("*\t                                                             *");
         System.out.println("*\t\t0) Salir                                             *");
@@ -49,6 +51,13 @@ public class Principal {
                     break;
                 case 6:
                     problema6.OrdenaBurbuja.ordenaBurbuja();
+                    break;
+                case 7:
+                    problema7.LeeMatriz2X3.leeMatriz2X3();
+                    break;
+                case 8:
+                    problema8.AsignarValoresMatriz.asignarValorsMatriz();
+                    break;
 
                 default:
                 System.out.println("Opcion invalida");

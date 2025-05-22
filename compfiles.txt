@@ -1,5 +1,8 @@
+./problema7/LeeMatriz2X3.java
+./problema8/AsignarValoresMatriz.java
 ./problema1/DemoArreglos.java
 ./miPrincipal/Principal.java
+./miPrincipal/DemoMatriz.java
 ./problema4/LeerArreglo.java
 ./problema2/LeerArreglo.java
 ./problema3/LeerArreglo.java
