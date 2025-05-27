@@ -105,6 +105,24 @@ public class DemoMatriz {
 
         System.out.println("Ese mes tiene :"+numeroDiaMes[diaMes-1]+" dias");
 
+        ///
+        /// el renglo representa el vendedor (3) y la columna represente el trimestre(4)
+        double ventas[][]={{1234.56, 980.99, 1200.00, 789.14},
+                           {2500.00,3000.00,4560.56,898.12},
+                           {900,1250.55,5000.00,1250.98}
+                          };
+        for(int renglon=0;renglon<ventas.length;renglon++){
+            System.out.println("Vendedor: ");
+            for(int columna = 0;columna<ventas[renglon].length;columna++){
+                System.out.print(ventas[renglon][columna]+" ");
+
+            }
+            System.out.println();
+
+        }
+        
+        
+
 
     }
     
