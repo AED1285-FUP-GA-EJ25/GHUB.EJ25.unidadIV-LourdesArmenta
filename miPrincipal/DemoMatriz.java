@@ -65,6 +65,47 @@ public class DemoMatriz {
             }
         }
 
+        //Matrices constantes
+        /*
+        String nombresDias[]; //declaro
+        nombresDias = new String[7]; //inicializo
+        nombresDias[0]="domingo";
+        nombresDias[1]="lunes";
+        nombresDias[2]="martes";
+        nombresDias[3]="miercoles";
+        nombresDias[4]="jueves";
+        nombresDias[5]="viernes";
+        nombresDias[6]="sabado";
+        */
+        String nombresDias [] = {"domingo",
+                                 "lunes",
+                                 "martes",
+                                 "miercoles",
+                                 "jueves",
+                                 "viernes",
+                                 "sabado"};
+
+        int dia = 0;
+        do{ 
+             System.out.print("Proporciona el dia de la semana:");
+             dia = sc.nextInt();
+        } while(dia<0 || dia>6);
+
+        System.out.println(nombresDias[dia]);
+
+        //Pidan el numero de mes y les imprima el número dias que tiene el mes
+        //validando que el numero de mes este entre 1 y 12
+
+        int numeroDiaMes[] ={31,28,31,30,30,30,31,31,30,31,30,31};
+        int diaMes = 0;
+        do{
+            System.out.print("Proporciona el número de mes (1-12)");
+            diaMes = sc.nextInt();
+        }while (diaMes<1 || diaMes>12);
+
+        System.out.println("Ese mes tiene :"+numeroDiaMes[diaMes-1]+" dias");
+
+
     }
     
 }
